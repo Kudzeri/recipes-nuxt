@@ -1,7 +1,8 @@
+import { NuxtPage, NuxtLayout } from './.nuxt/components';
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
