@@ -11,11 +11,7 @@ export default defineNuxtConfig({
     ],
   },
 
-  modules: [
-    "@nuxt/icon",
-    "@nuxt/image",
-  ],
-
+  modules: ["@nuxt/icon", "@nuxt/image", "@nuxt/ui"],
   googleFonts: {
     families: {
       Montserrat: true,
