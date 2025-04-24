@@ -1,4 +1,4 @@
-# [DEMO LINK (CLICK)](https://recipes-720u.onrender.com)
+# [DEMO LINK (CLICK)](https://recipes-j2qe.onrender.com)
 
 # Recipes Nuxt Project
 
