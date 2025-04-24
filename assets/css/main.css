@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
 .gold {
     color: #F79F1A;
@@ -44,4 +44,12 @@ color: #292727;
 
 .container {
     @apply container px-8 items-center justify-center
+}
+
+.router-link-active {
+    color: #046e1b;
+}
+
+.nav-item:hover {
+    color: #F79F1A;
 }

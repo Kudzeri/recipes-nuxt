@@ -1,3 +1,4 @@
+import { NuxtLink, NuxtImg } from '../.nuxt/components';
 <script lang="ts" setup>
 
 </script>
@@ -6,16 +7,16 @@
 <template>
   <header class="py-4 border-b">
     <nav class="flex container items-center">
-      <a href="" class="flex gap-1 items-center">
-        <img class="w-14" src="/assets/icon-green.png" alt="" />
-        <span class="text-3xl font-bold">Nuxtcipes</span>
-      </a>
-      <ul class="flex gap-6 ml-auto text-xl font-bold capitalize">
+      <NuxtLink to="/" class="flex gap-1 items-center">
+        <NuxtImg width="56px" src="icon-green.png" format="webp" alt="Logo"/>
+        <span class="text-3xl text-black">Nuxtcipes</span>
+      </NuxtLink>
+      <ul class="flex gap-6 ml-auto text-xl capitalize">
         <li>
-          <a href="/">Home</a>
+          <NuxtLink class="nav-item" to="/">Home</NuxtLink>
         </li>
-        <li>
-          <a href="/about">About</a>
+        <li >
+          <NuxtLink class="nav-item" to="/about">About</NuxtLink>
         </li>
       </ul>
     </nav>

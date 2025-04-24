@@ -6,7 +6,7 @@ import { BaseNavigation } from '../.nuxt/components';
 
 <template>
   <BaseNavigation />
-  <div class="montserrat-500 container">
+  <div class="montserrat-300 container">
     
 
     <slot />
